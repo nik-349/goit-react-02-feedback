@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import Controls from './Controls';
 import feedback from './Feedback.module.css';
 import Statistics from './Statistics';
@@ -10,7 +10,7 @@ class FeedbackForm extends React.Component {
   //   };
 
   static propTypes = {
-    //
+    //prop
   };
 
   state = {
