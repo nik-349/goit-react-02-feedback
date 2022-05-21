@@ -1,9 +1,15 @@
 
 
-.color{
-    font-size: 25px;
+
+
+.container{
+    width: 300px;
+    height: 380px;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    border: solid 2px #491d1d;
+    background-color: #0E182E;
     
 }
-.back{
-    background-color: darkcyan;
-}
+

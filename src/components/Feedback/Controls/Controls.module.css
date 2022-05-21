@@ -1,0 +1,8 @@
+.control {
+    width: 70px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #5D6A76;
+    color:aliceblue
+}
