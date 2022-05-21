@@ -1,4 +1,3 @@
-import React, { Children } from 'react';
 import section from './Section.module.css';
 
 const Section = ({ title, children }) => {
