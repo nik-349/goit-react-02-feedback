@@ -1,6 +1,7 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import controls from './Controls.module.css';
+import classNames from 'classnames';
 
 const Controls = ({ options, onHandleGood }) => {
   return (
@@ -9,7 +10,7 @@ const Controls = ({ options, onHandleGood }) => {
         return (
           <button
             key={option}
-            className={controls.control}
+            className={classNames(controls.control)}
             type="button"
             name={option}
             onClick={() => onHandleGood(option)}
@@ -20,6 +21,11 @@ const Controls = ({ options, onHandleGood }) => {
       })}
     </ul>
   );
+};
+
+Controls.propTypes = {
+  onHandleGood: PropTypes.func.isRequired,
+  options: PropTypes.array.isRequired,
 };
 
 export default Controls;

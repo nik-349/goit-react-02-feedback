@@ -4,5 +4,12 @@
     margin-right: 10px;
     border-radius: 5px 5px 5px 5px;
     background-color: #5D6A76;
-    color:aliceblue
+    color:aliceblue;
+    cursor: pointer;
+    
+}
+
+.control:hover{
+background-color: antiquewhite;
+color: black;
 }
