@@ -33,10 +33,10 @@ const Statistics = ({
 };
 
 Statistics.protoType = {
-  onGood: PropTypes.number,
-  onNeutral: PropTypes.number,
-  onBad: PropTypes.number,
-  totalFeedback: PropTypes.number,
-  countPositive: PropTypes.number,
+  onGood: PropTypes.number.isRequired,
+  onNeutral: PropTypes.number.isRequired,
+  onBad: PropTypes.number.isRequired,
+  totalFeedback: PropTypes.number.isRequired,
+  countPositive: PropTypes.number.isRequired,
 };
 export default Statistics;

@@ -6,6 +6,10 @@ import Section from '../components/Feedback/Section/Section';
 import Notification from '../components/Feedback/Notification/Notification';
 
 export class App extends Component {
+  static = {
+    total: 0,
+  };
+
   state = {
     good: 0,
     neutral: 0,
@@ -33,7 +37,7 @@ export class App extends Component {
 
   render() {
     const buttons = Object.keys(this.state);
-
+    this.total = this.countTotalFeedback();
     return (
       <div className={feedback.container}>
         <Section title="Please leave feedback">
